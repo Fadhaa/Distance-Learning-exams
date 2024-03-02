@@ -206,6 +206,14 @@ allmsg,"\\",
 "\\end{flushleft}
 \\end{document}"),collapse=" ")
 
+
+#save the resulted latex code in a .txt file in your pc
+
+writeLines(latexmsg,con="dir/filename.txt")
+
+
+
+
 ##The output result(latexmsg) will be a code for Latex so that we can paste it directely in latex code terminal to generate questions in pdf file
 
 SolData<-data.frame(sol)
