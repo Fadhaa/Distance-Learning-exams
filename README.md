@@ -13,13 +13,7 @@ Different R codes for generating large number of exams with solutions. This can 
 
 The result of the code is a latex code and saved as text file similar to
 
-
-
-
-
-
-
-[Uploading Matrix-exa\documentclass[16pt,a4paper]{report}
+\documentclass[16pt,a4paper]{report}
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{verbatim}
@@ -918,7 +912,7 @@ Find the values of $a_{11}$, $b_{21}$, $d_{12}$, $d_{13}$, $d_{22}$, $d_{23}$, $
  \newpage 
  \ \end{flushleft}
 \end{document}
-m-withlatex.txt…]()
+
 
 
 
