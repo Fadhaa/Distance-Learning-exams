@@ -4,9 +4,14 @@ Different R codes for generating large number of exams with solutions. This can 
 
 
 ##Date represents students information
-##id       student name     student email
-1           Michael          m@@@@@
-.
+
+
+
+
+
+
+[student_info_data_format.pdf](https://github.com/Fadhaa/Distance-Learning-exams/files/14468289/student_info_data_format.pdf)
+
 .
 
 
