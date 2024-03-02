@@ -116,19 +116,19 @@ charm4<-c(as.character(eval(parse(text=y1[1,2]))),y1[2,2],y1[3,2],y1[4,2])
 vecF<-as.vector(t(F))
 charF<-sapply(1:length(vecF), function(v) charfun(vecF[v]))
 Ls<-c(m1[1],m2[4],vecD[2],vecD[3],vecD[5],vecD[6],vecD[7],vecD[8],vecD[9],k_1,k_2,k_3,k_4,a,b)
-Ls1<-c(as.character(nu[i,1]),as.character(A[1,1]),as.character(B[2,1]),as.character(vecD[2]),as.character(vecD[3])
+Ls1<-c(as.character(num[i,1]),as.character(A[1,1]),as.character(B[2,1]),as.character(vecD[2]),as.character(vecD[3])
 ,as.character(vecD[5]),as.character(vecD[6]),as.character(vecD[7]),as.character(vecD[8])
 ,as.character(vecD[9]),chk1,chk2,chk3,chk4,as.character(a),as.character(b))
 LL<-paste(Ls1,collapse="\t")
 ew<-paste(c(ew,LL,"\n"),collapse="")
 sol<-rbind(sol,Ls)
-Ls2<-c(as.character(nu[i,1]),charfun(A[1,1]),charfun(B[2,1]),charD[2],charD[3],
+Ls2<-c(as.character(num[i,1]),charfun(A[1,1]),charfun(B[2,1]),charD[2],charD[3],
 charD[5],charD[6],charD[7],charD[8],charD[9],chk1,chk2,chk3,chk4,as.character(a),as.character(b))
 LL1<-paste(Ls2,collapse="\t")
 ew1<-paste(c(ew1,LL1,"\n"),collapse="")
 msg<-paste(c(
 "\\textcolor{red}{",
-as.character(nu[i,1]),"}",",","\\hspace*{3mm}",
+as.character(num[i,1]),"}",",","\\hspace*{3mm}",
 "\\textcolor{blue}{",
 "ID","}","\\\\ \n"
 ,"\\vspace*{3mm}","\n",
