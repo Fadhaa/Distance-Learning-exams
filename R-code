@@ -1,9 +1,36 @@
 library(gtools)
-
 options(scipen=99)
-fi<-read.table("A:/Matrix/st.txt",header=FALSE,fill =TRUE)
-num<-data.frame(fi)
-nu<-as.matrix(num)
+
+
+
+
+charfun<-function(xxx){
+if (Re(xxx)!=0 && Im(xxx)!=0){
+if (Im(xxx)!=1 && Im(xxx)!=-1){a9<-as.character(xxx)
+}else if (Im(xxx)==1){a9<-paste(c(as.character(Re(xxx)),"+i"),collapse="")
+}else if (Im(xxx)==-1){a9<-paste(c(as.character(Re(xxx)),"-i"),collapse="")}
+}else if (Re(xxx)==0 && Im(xxx)!=0){
+if (Im(xxx)!=1 && Im(xxx)!=-1){a9<-paste(c(as.character(Im(xxx)),"i"),collapse="")
+}else if (Im(xxx)==1){a9<-"i"
+}else if (Im(xxx)==-1){a9<-"-i"}
+}else if (Re(xxx)!=0 && Im(xxx)==0){a9<-as.character(Re(xxx))
+}else{a9<-"0"}
+return(a9)}
+
+
+sigfun<-function(xx){
+if (xx<0){a9<-as.character(xx)}else{a9<-paste(c("+",as.character(xx)),collapse="")}
+return(a9)}
+
+#these codes for generate different matrix questions for number of students
+#import student information data
+
+data<-read.table("data.txt",header=FALSE,fill =TRUE)
+num<-data.frame(data)
+no._students<-dim(num)[1]
+
+##determine the lists of numbers 
+
 r1<-c(seq(-15,-1),seq(1,15))
 r2<-c(seq(-9,-1),seq(1,9))
 r3<-c(seq(-7,-1),seq(1,7))
@@ -21,7 +48,10 @@ ew1<-""
 k<-0
 ss<-1:dim(ix3)[1]
 j<-sample(ss,length(ss))
-for (i in 1:15){
+
+##generate random numbers for each student and involve these numbers in their questions
+
+for (i in 1:no._students){
 ix1<-sample(r1,21)
 ix2<-sample(r2,6)
 ix4<-sample(r4,2)
@@ -159,7 +189,7 @@ allmsg<-paste(c(allmsg,msg),collapse=" ")
 if (floor(i/5)==i/5){allmsg<-paste(c(allmsg,"\\newpage \n"),collapse=" ")}
 }
 
-
+##The output result will be a code for Latex so that we can paste it directely in latex code terminal to generate questions in pdf file
 
 latexmsg<-paste(c(
 "\\documentclass[16pt,a4paper]{report}
@@ -176,8 +206,15 @@ allmsg,"\\",
 "\\end{flushleft}
 \\end{document}"),collapse=" ")
 
-
+##The output result(latexmsg) will be a code for Latex so that we can paste it directely in latex code terminal to generate questions in pdf file
 
 SolData<-data.frame(sol)
 rownames(SolData)<-as.character(1:dim(SolData)[1])
 colnames(SolData)<-c("a11", "b21", "d12", "d13", "d22", "d23", "d31", "d32", "d33", "k1", "k2", "k3", "k4", "a", "b")
+
+###SolData is the solution table for all question
+
+
+
+
+
