@@ -16,7 +16,7 @@ Different R codes for generating large number of exams with solutions. This can 
 
 
 
-#The result of the code is a latex code and saved as text file. copy and paste the saved txt file to latex terminal and execute the code. It will generate a pdf file as belo
+#The result of the code is a latex code and saved as text file. copy and paste the saved txt file to latex terminal and execute the code. It will generate a pdf file as below
 
 
 
