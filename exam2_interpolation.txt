@@ -264,7 +264,7 @@ Use the method of Gauss backward to interpolate the following points. The points
 ===============================================================
  \end{LARGE}
 
- \ \end{flushleft}
+\end{flushleft}
 
 \end{document}
 
