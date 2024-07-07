@@ -1,0 +1,270 @@
+\documentclass[16pt,a4paper]{report}
+
+\usepackage{listings}
+
+\usepackage{verbatim}
+
+\usepackage{tikz}
+
+\usepackage[top=2cm, bottom=0.2cm, outer=0.8cm, inner=0.2cm,left=1.5cm]{geometry}
+
+\usepackage{multirow}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{flushleft}
+
+\begin{LARGE}
+ \textcolor{red}{1},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,1),(4,0),(6,3),(8,-3),(10,-2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{2},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-4),(4,-3),(6,-1),(8,0),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{3},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,0),(4,1),(6,4),(8,3),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{4},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,0),(4,3),(6,4),(8,-4),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{5},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-2),(4,-1),(6,0),(8,-4),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{6},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,3),(4,4),(6,-4),(8,0),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{7},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,2),(4,1),(6,-1),(8,-3),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{8},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-2),(4,-1),(6,-4),(8,4),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{9},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,-3),(4,-4),(6,2),(8,1),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{10},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,-1),(4,-4),(6,3),(8,0),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{11},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,-1),(4,5),(6,-4),(8,0),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{12},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,0),(4,-3),(6,-1),(8,4),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{13},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-2),(4,3),(6,2),(8,1),(10,-4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{14},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,3),(4,2),(6,-4),(8,-3),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{15},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,0),(4,2),(6,-2),(8,-4),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{16},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,0),(4,-1),(6,1),(8,2),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{17},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-1),(4,-4),(6,4),(8,-2),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{18},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,1),(4,2),(6,-3),(8,-1),(10,0). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{19},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-1),(4,0),(6,-4),(8,-3),(10,-2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{20},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,1),(4,-1),(6,4),(8,-2),(10,-3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{21},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-3),(4,-4),(6,1),(8,3),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{22},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,5),(4,0),(6,1),(8,-1),(10,-4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{23},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,5),(4,4),(6,-2),(8,3),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{24},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,5),(4,3),(6,-3),(8,1),(10,-4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{25},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-4),(4,4),(6,5),(8,-3),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{26},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-3),(4,5),(6,-4),(8,4),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{27},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,0),(4,1),(6,-3),(8,-4),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{28},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-3),(4,-4),(6,0),(8,-1),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{29},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,0),(4,-4),(6,5),(8,4),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{30},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-4),(4,1),(6,0),(8,-2),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{31},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-3),(4,-4),(6,0),(8,-1),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{32},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-2),(4,2),(6,1),(8,0),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{33},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,0),(4,1),(6,3),(8,-1),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{34},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,4),(4,0),(6,-3),(8,-1),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{35},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,4),(4,-4),(6,1),(8,5),(10,0). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{36},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-4),(4,-1),(6,3),(8,1),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{37},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,5),(4,-3),(6,-4),(8,-1),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{38},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,1),(4,-1),(6,-2),(8,5),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{39},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-1),(4,-3),(6,5),(8,2),(10,-2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{40},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-2),(4,0),(6,3),(8,4),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{41},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,-2),(4,5),(6,1),(8,-3),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{42},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-1),(4,2),(6,-2),(8,-3),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{43},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-1),(4,4),(6,-2),(8,5),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{44},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,0),(4,2),(6,3),(8,-4),(10,-2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{45},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,-4),(4,0),(6,4),(8,1),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{46},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,-1),(4,4),(6,-4),(8,5),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{47},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,3),(4,-2),(6,1),(8,4),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{48},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-1),(4,1),(6,-3),(8,0),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{49},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,0),(4,-2),(6,-3),(8,4),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{50},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,5),(4,-4),(6,4),(8,0),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{51},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-4),(4,-1),(6,2),(8,-3),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{52},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,-4),(4,1),(6,-1),(8,3),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{53},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-4),(4,-2),(6,4),(8,3),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{54},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,3),(4,0),(6,-3),(8,4),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{55},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-4),(4,-3),(6,-2),(8,2),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{56},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,1),(4,-3),(6,5),(8,-4),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{57},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,0),(4,-2),(6,4),(8,3),(10,5). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{58},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,-1),(4,5),(6,2),(8,3),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{59},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-4),(4,-1),(6,5),(8,0),(10,-3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{60},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,3),(4,2),(6,1),(8,-2),(10,0). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{61},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-2),(4,5),(6,0),(8,2),(10,-3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{62},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,1),(4,5),(6,0),(8,-3),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{63},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,-2),(4,3),(6,0),(8,1),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{64},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,4),(4,0),(6,-4),(8,3),(10,-3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{65},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Newton for divided differences to interpolate the following points. The points are,(2,-2),(4,2),(6,5),(8,1),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{66},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,5),(4,-2),(6,-4),(8,2),(10,1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{67},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-1),(4,3),(6,1),(8,-4),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{68},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,4),(4,-3),(6,-2),(8,5),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{69},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-4),(4,1),(6,-1),(8,-3),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{70},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,5),(4,-2),(6,-3),(8,1),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{71},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,4),(4,-4),(6,3),(8,0),(10,2). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{72},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss forward to interpolate the following points. The points are,(2,-4),(4,-1),(6,1),(8,-2),(10,-3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{73},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-3),(4,0),(6,-2),(8,-4),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{74},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial Backward to interpolate the following points. The points are,(2,3),(4,5),(6,-1),(8,2),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{75},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,5),(4,-4),(6,-1),(8,2),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{76},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of polynomial forward to interpolate the following points. The points are,(2,5),(4,3),(6,4),(8,2),(10,-1). Then write the interpolated equation in the google form?
+===============================================================
+ \textcolor{red}{77},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-1),(4,-3),(6,5),(8,-2),(10,3). Then write the interpolated equation in the google form?
+===============================================================
+ \newpage 
+ \textcolor{red}{78},\hspace*{3mm}\textcolor{blue}{Name:}\\ 
+Use the method of Gauss backward to interpolate the following points. The points are,(2,-4),(4,-2),(6,1),(8,-1),(10,4). Then write the interpolated equation in the google form?
+===============================================================
+ \end{LARGE}
+
+ \ \end{flushleft}
+
+\end{document}
+
